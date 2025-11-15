@@ -1,0 +1,20 @@
+{
+  "name": "saucedemo-playwright-test",
+  "version": "1.0.0",
+  "description": "Automated testing for SauceDemo using Playwright with JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:chrome": "playwright test --project=chromium",
+    "test:report": "playwright show-report"
+  },
+  "keywords": ["playwright", "automation", "testing", "saucedemo"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "playwright": "^1.56.1"
+  }
+}
